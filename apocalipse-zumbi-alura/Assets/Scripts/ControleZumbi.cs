@@ -53,8 +53,7 @@ public class ControleZumbi : MonoBehaviour
 
     void AtacaJogador()
     {
-        Time.timeScale = 0;
-        compControleJogador.TextoGameOver.SetActive(true);
-        compControleJogador.Vivo = false;
+        int dano = Random.Range(20, 30);
+        compControleJogador.TomarDano(dano);
     }
 }

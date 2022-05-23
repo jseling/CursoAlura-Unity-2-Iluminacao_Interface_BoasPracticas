@@ -6,18 +6,12 @@ using UnityEngine.SceneManagement;
 public class ControleJogador : MonoBehaviour
 {
     public float Velocidade = 10;
-
-    public bool Vivo = true;    
-
     public LayerMask MascaraChao;
-
     public GameObject TextoGameOver;
-
     private Vector3 direcao;
-
     private Animator compAnimator;
-
     private Rigidbody compRigidBody;
+    public int Vida = 100;
 
     private void Start()
     {
@@ -44,7 +38,7 @@ public class ControleJogador : MonoBehaviour
            compAnimator.SetBool("Movendo", false);
         }
 
-        if(Vivo ==false)
+        if(Vida <= 0)
         {
             if(Input.GetButtonDown("Fire1"))
             {
@@ -73,6 +67,18 @@ public class ControleJogador : MonoBehaviour
             Quaternion novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
 
             compRigidBody.MoveRotation(novaRotacao);
+        }
+
+    }
+
+    public void TomarDano(int _dano)
+    {
+        Vida -= _dano;
+
+        if (Vida <= 0)
+        {
+            Time.timeScale = 0;
+            TextoGameOver.SetActive(true);
         }
 
     }
