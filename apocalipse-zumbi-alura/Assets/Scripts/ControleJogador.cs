@@ -12,6 +12,7 @@ public class ControleJogador : MonoBehaviour
     private Animator compAnimator;
     private Rigidbody compRigidBody;
     public int Vida = 100;
+    public ControleInterface scriptControleInterface;
 
     private void Start()
     {
@@ -80,6 +81,8 @@ public class ControleJogador : MonoBehaviour
             Time.timeScale = 0;
             TextoGameOver.SetActive(true);
         }
+
+        scriptControleInterface.AtualizaVidaJogador();
 
     }
 }
