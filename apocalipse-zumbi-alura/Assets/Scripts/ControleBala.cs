@@ -8,6 +8,8 @@ public class ControleBala : MonoBehaviour
 
     private Rigidbody compRigidBody;
 
+    public AudioClip SomDeMorte;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class ControleBala : MonoBehaviour
         if(objetoDeColisao.tag == "Inimigo")
         {
             Destroy(objetoDeColisao.gameObject);
+            ControleAudio.instancia.PlayOneShot(SomDeMorte);
         }
          Destroy(gameObject);
     }    

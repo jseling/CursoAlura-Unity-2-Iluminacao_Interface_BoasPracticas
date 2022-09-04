@@ -13,6 +13,7 @@ public class ControleJogador : MonoBehaviour
     private Rigidbody compRigidBody;
     public int Vida = 100;
     public ControleInterface scriptControleInterface;
+    public AudioClip SomDeDano;
 
     private void Start()
     {
@@ -75,6 +76,8 @@ public class ControleJogador : MonoBehaviour
     public void TomarDano(int _dano)
     {
         Vida -= _dano;
+        scriptControleInterface.AtualizaVidaJogador();
+        ControleAudio.instancia.PlayOneShot(SomDeDano);
 
         if (Vida <= 0)
         {
@@ -82,7 +85,7 @@ public class ControleJogador : MonoBehaviour
             TextoGameOver.SetActive(true);
         }
 
-        scriptControleInterface.AtualizaVidaJogador();
+
 
     }
 }
