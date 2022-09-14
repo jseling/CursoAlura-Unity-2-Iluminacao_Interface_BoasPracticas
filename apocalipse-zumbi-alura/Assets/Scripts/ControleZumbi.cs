@@ -34,6 +34,8 @@ public class ControleZumbi : MonoBehaviour
         float distancia = Vector3.Distance(transform.position, Jogador.transform.position);
         
         Vector3 direcao = Jogador.transform.position - transform.position;
+        direcao.Normalize();
+
         Quaternion novaRotacao = Quaternion.LookRotation(direcao); 
         compRigidBody.MoveRotation(novaRotacao);         
 
@@ -41,7 +43,7 @@ public class ControleZumbi : MonoBehaviour
         {
             compRigidBody.MovePosition
                 (compRigidBody.position + 
-                direcao.normalized * Velocidade * Time.deltaTime);  
+                direcao * Velocidade * Time.deltaTime);  
 
             compAnimator.SetBool("Atacando", false);          
         }  

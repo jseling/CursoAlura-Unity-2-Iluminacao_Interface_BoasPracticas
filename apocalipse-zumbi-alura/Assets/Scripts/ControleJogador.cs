@@ -30,8 +30,9 @@ public class ControleJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
 
         direcao = new Vector3(eixoX, 0, eixoZ);
+        direcao.Normalize();
 
-        if(direcao != Vector3.zero)
+        if (direcao != Vector3.zero)
         {
             compAnimator.SetBool("Movendo", true);
         }     
@@ -51,9 +52,12 @@ public class ControleJogador : MonoBehaviour
 
     void FixedUpdate()
     {
-        compRigidBody.MovePosition
+        if (direcao != Vector3.zero)
+        {
+            compRigidBody.MovePosition
             (compRigidBody.position +
-            direcao * Velocidade * Time.deltaTime);
+            Time.deltaTime * Velocidade * direcao);
+        }
 
         Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(raio.origin, raio.direction * 100, Color.red);
