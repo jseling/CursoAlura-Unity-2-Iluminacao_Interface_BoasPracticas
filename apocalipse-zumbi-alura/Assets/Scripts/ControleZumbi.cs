@@ -7,22 +7,18 @@ public class ControleZumbi : MonoBehaviour
     public GameObject Jogador;
     public float Velocidade = 5;
 
-    private Animator compAnimator;
     private ControleJogador compControleJogador;
 
     private MovimentoPersonagem movimentaInimigo;
+    private AnimacaoPersonagem animacaoInimigo;
     
     // Start is called before the first frame update
     void Start()
     {
-       Jogador = GameObject.FindWithTag("Jogador");
-       int tipoZumbi = Random.Range(1, 28);
-       transform.GetChild(tipoZumbi).gameObject.SetActive(true);
-
-       compAnimator = GetComponent<Animator>();
-       compControleJogador = Jogador.GetComponent<ControleJogador>();
-
+        Jogador = GameObject.FindWithTag("Jogador");
         movimentaInimigo = GetComponent<MovimentoPersonagem>();
+        animacaoInimigo = GetComponent<AnimacaoPersonagem>();
+        AleatorizarZumbi();
     }
 
     void FixedUpdate()
@@ -37,12 +33,11 @@ public class ControleZumbi : MonoBehaviour
         if (distancia > 2.5)
         {
             movimentaInimigo.Movimentar(direcao, Velocidade);
-
-            compAnimator.SetBool("Atacando", false);          
+            animacaoInimigo.Atacar(false);
         }  
         else
         {
-            compAnimator.SetBool("Atacando", true); 
+            animacaoInimigo.Atacar(true);
         }  
     }
 
@@ -51,4 +46,12 @@ public class ControleZumbi : MonoBehaviour
         int dano = Random.Range(20, 30);
         compControleJogador.TomarDano(dano);
     }
+
+    void AleatorizarZumbi()
+    {
+        int tipoZumbi = Random.Range(1, 28);
+        transform.GetChild(tipoZumbi).gameObject.SetActive(true);
+        compControleJogador = Jogador.GetComponent<ControleJogador>();
+    }
+
 }
