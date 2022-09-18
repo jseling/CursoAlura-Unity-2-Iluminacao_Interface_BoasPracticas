@@ -2586,9 +2586,10 @@ GameObject:
   - component: {fileID: 281372144}
   - component: {fileID: 281372143}
   - component: {fileID: 281372149}
+  - component: {fileID: 5543037745295848560}
   m_Layer: 0
   m_Name: Personagens
-  m_TagString: Untagged
+  m_TagString: Jogador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2695,6 +2696,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: 10
+  MascaraChao:
+    serializedVersion: 2
+    m_Bits: 8
+  TextoGameOver: {fileID: 0}
+  Vida: 100
+  scriptControleInterface: {fileID: 0}
+  SomDeDano: {fileID: 8300000, guid: b72b2855ceaf9ec489e251f9a4dd808e, type: 3}
 --- !u!114 &281372149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,6 +2716,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bala: {fileID: 5893349810194000537, guid: 42bc2ec8d98d73e4d9ef00af606fce88, type: 3}
+  CanoArma: {fileID: 730489848}
+  SomDeTiro: {fileID: 8300000, guid: e69e0dc925cea2e41be3a07a66c0b5e5, type: 3}
+--- !u!114 &5543037745295848560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884102019447498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a886d8334080f84fb6866563925838a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1938851689004064
 GameObject:
   m_ObjectHideFlags: 0

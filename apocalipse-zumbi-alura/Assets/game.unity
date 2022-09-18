@@ -1348,6 +1348,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
   m_PrefabInstance: {fileID: 1793712130}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &281372151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281372142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a415e39a58d3f2d4298c8757e1fc1108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &283156739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3528,11 +3540,6 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1105362988413674, guid: bf4e53320739441f58d231c2ee884b66, type: 3}
   m_PrefabInstance: {fileID: 879447994}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &730489848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 730489848, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-  m_PrefabInstance: {fileID: 1793712130}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &742163004
 PrefabInstance:
@@ -8835,39 +8842,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 281372143, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: SomDeDano
-      value: 
-      objectReference: {fileID: 8300000, guid: b72b2855ceaf9ec489e251f9a4dd808e, type: 3}
-    - target: {fileID: 281372143, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: TextoGameOver
       value: 
       objectReference: {fileID: 1845394583}
     - target: {fileID: 281372143, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: MascaraChao.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 281372143, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: scriptControleInterface
       value: 
       objectReference: {fileID: 625740561}
-    - target: {fileID: 281372147, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 281372149, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: CanoArma
-      value: 
-      objectReference: {fileID: 730489848}
-    - target: {fileID: 281372149, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: SomDeTiro
-      value: 
-      objectReference: {fileID: 8300000, guid: e69e0dc925cea2e41be3a07a66c0b5e5, type: 3}
     - target: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_Name
-      value: Jogador
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
-      propertyPath: m_TagString
       value: Jogador
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}

@@ -9,18 +9,17 @@ public class ControleJogador : MonoBehaviour
     public LayerMask MascaraChao;
     public GameObject TextoGameOver;
     private Vector3 direcao;
-    private Animator compAnimator;
-    private Rigidbody compRigidBody;
     public int Vida = 100;
     public ControleInterface scriptControleInterface;
     public AudioClip SomDeDano;
+    private MovimentoJogador meuMovimentoJogador;
+    private AnimacaoPersonagem meuAnimacaoJogador;
 
     private void Start()
     {
         Time.timeScale = 1; 
-
-        compAnimator = GetComponent<Animator>(); 
-        compRigidBody = GetComponent<Rigidbody>();      
+        meuMovimentoJogador = GetComponent<MovimentoJogador>();
+        meuAnimacaoJogador = GetComponent<AnimacaoPersonagem>();
     }
 
     // Update is called once per frame
@@ -30,18 +29,13 @@ public class ControleJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
 
         direcao = new Vector3(eixoX, 0, eixoZ);
-        direcao.Normalize();
 
         if (direcao != Vector3.zero)
-        {
-            compAnimator.SetBool("Movendo", true);
-        }     
-        else
-        {
-           compAnimator.SetBool("Movendo", false);
-        }
+            direcao.Normalize();
 
-        if(Vida <= 0)
+        meuAnimacaoJogador.Movimentar(direcao.magnitude);
+
+        if (Vida <= 0)
         {
             if(Input.GetButtonDown("Fire1"))
             {
@@ -52,29 +46,8 @@ public class ControleJogador : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (direcao != Vector3.zero)
-        {
-            compRigidBody.MovePosition
-            (compRigidBody.position +
-            Time.deltaTime * Velocidade * direcao);
-        }
-
-        Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(raio.origin, raio.direction * 100, Color.red);
-
-        RaycastHit impacto;
-
-        if(Physics.Raycast(raio, out impacto, 100, MascaraChao))
-        {
-            Vector3 posicaoMiraJogador = impacto.point - transform.position;
-
-            posicaoMiraJogador.y = transform.position.y;
-
-            Quaternion novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
-
-            compRigidBody.MoveRotation(novaRotacao);
-        }
-
+            meuMovimentoJogador.Movimentar(direcao, Velocidade);
+            meuMovimentoJogador.RotacaoJogador(MascaraChao);
     }
 
     public void TomarDano(int _dano)
