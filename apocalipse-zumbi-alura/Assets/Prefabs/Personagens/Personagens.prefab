@@ -2587,6 +2587,8 @@ GameObject:
   - component: {fileID: 281372143}
   - component: {fileID: 281372149}
   - component: {fileID: 5543037745295848560}
+  - component: {fileID: 281372151}
+  - component: {fileID: 281372152}
   m_Layer: 0
   m_Name: Personagens
   m_TagString: Jogador
@@ -2695,14 +2697,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48232fdd5e553ea448646f137c55d73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocidade: 10
   MascaraChao:
     serializedVersion: 2
     m_Bits: 8
   TextoGameOver: {fileID: 0}
-  Vida: 100
   scriptControleInterface: {fileID: 0}
   SomDeDano: {fileID: 8300000, guid: b72b2855ceaf9ec489e251f9a4dd808e, type: 3}
+  StatusJogador: {fileID: 0}
 --- !u!114 &281372149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2730,6 +2731,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a886d8334080f84fb6866563925838a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &281372151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884102019447498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a415e39a58d3f2d4298c8757e1fc1108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &281372152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884102019447498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa20474ccca11a146a0ffd52048d7483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VidaInicial: 100
+  Vida: 0
+  Velocidade: 10
 --- !u!1 &1938851689004064
 GameObject:
   m_ObjectHideFlags: 0

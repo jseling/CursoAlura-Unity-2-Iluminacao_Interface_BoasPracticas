@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -148,7 +148,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 11}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 419
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -318,9 +318,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: d0a30a7977de5e449b6427cab12b66da, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: d07fb8f8a00b44f419e12cb39dba9c69, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8391089032272619667, guid: d0a30a7977de5e449b6427cab12b66da, type: 2}
+  - m_Target: {fileID: 8821964940079933851, guid: d07fb8f8a00b44f419e12cb39dba9c69, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -415,22 +415,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Modelos3D/Personagens/Animacoes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Modelos3D/Personagens/Animacoes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\MeusEstudos\Unity\CursoAlura-Unity-2-Iluminacao_Interface_BoasPracticas\apocalipse-zumbi-alura
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6610000
-    m_LastClickedID: 25062
-    m_ExpandedIDs: 00000000ba610000bc610000d4610000a4680000
+    m_SelectedIDs: be680000
+    m_LastClickedID: 26814
+    m_ExpandedIDs: 00000000ca610000cc610000e2610000bc680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -458,7 +458,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba610000bc610000
+    m_ExpandedIDs: 00000000ca610000cc610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,22 +485,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a86c0000a8680000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000a86c0000a8680000d0680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Zumbi
+      m_OriginalName: Zumbi
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23942
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -510,7 +510,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 210}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 154
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -10.761459, y: 11.46055, z: -12.906036}
     speed: 2
-    m_Value: {x: -10.761459, y: 11.46055, z: -12.906036}
+    m_Value: {x: 0.000001847744, y: 1.5599751, z: 0.01634258}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 40.60877
     speed: 2
-    m_Value: 40.60877
+    m_Value: 2.3895152
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -944,7 +944,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: f0580000
       m_LastClickedID: 22768
-      m_ExpandedIDs: 36fbffff
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
