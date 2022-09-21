@@ -12,6 +12,7 @@ public class MovimentoPersonagem : MonoBehaviour
     }
     public void Movimentar(Vector3 direcao, float velocidade)
     {
+        direcao.Normalize();
         meurigidbody.MovePosition(
             meurigidbody.position +
             direcao * velocidade * Time.deltaTime);
@@ -19,6 +20,7 @@ public class MovimentoPersonagem : MonoBehaviour
 
     public void Rotacionar(Vector3 direcao)
     {
+        direcao.Normalize();
         Quaternion novaRotacao = Quaternion.LookRotation(direcao);
         meurigidbody.MoveRotation(novaRotacao);
     }

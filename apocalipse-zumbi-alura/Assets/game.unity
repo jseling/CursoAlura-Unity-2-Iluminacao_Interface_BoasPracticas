@@ -1893,7 +1893,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &341324616
 MonoBehaviour:
@@ -5400,6 +5400,63 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1105362988413674, guid: bf4e53320739441f58d231c2ee884b66, type: 3}
   m_PrefabInstance: {fileID: 1642750387}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1095581915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525422, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_Name
+      value: GeradorZumbis (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
 --- !u!1001 &1096776430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5564,6 +5621,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d79cb0350f78f2c4ca9d2bd41118bf2a, type: 3}
   m_PrefabInstance: {fileID: 1732353613}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139518693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525422, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_Name
+      value: GeradorZumbis (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
 --- !u!1001 &1147532402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6179,52 +6293,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1f634d818d14cbc4eadbdf6d2bbd35c6, type: 3}
---- !u!1 &1280133637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1280133639}
-  - component: {fileID: 1280133638}
-  m_Layer: 0
-  m_Name: GeradorZumbis (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1280133638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280133637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55fbce190f5ecb341bfbca8ada50ff73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Zumbi: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-  TempoGerarZumbi: 3
---- !u!4 &1280133639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280133637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.69, y: 0, z: -29.42}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1281805443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6448,6 +6516,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1f634d818d14cbc4eadbdf6d2bbd35c6, type: 3}
+--- !u!1001 &1294333974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525422, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_Name
+      value: GeradorZumbis (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
 --- !u!1 &1297953564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1105362988413674, guid: bf4e53320739441f58d231c2ee884b66, type: 3}
@@ -9223,52 +9348,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845394583}
   m_CullTransparentMesh: 1
---- !u!1 &1850764541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1850764543}
-  - component: {fileID: 1850764542}
-  m_Layer: 0
-  m_Name: GeradorZumbis (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1850764542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850764541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55fbce190f5ecb341bfbca8ada50ff73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Zumbi: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-  TempoGerarZumbi: 2
---- !u!4 &1850764543
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850764541}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.9, y: 0, z: -30.56}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1851995381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9349,6 +9428,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1f634d818d14cbc4eadbdf6d2bbd35c6, type: 3}
+--- !u!1001 &1869689584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 32.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525422, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_Name
+      value: GeradorZumbis (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
 --- !u!1001 &1870909773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10129,52 +10265,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: c006577ec5ad7d9479857dd229e902dd, type: 3}
---- !u!1 &1961136384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1961136386}
-  - component: {fileID: 1961136385}
-  m_Layer: 0
-  m_Name: GeradorZumbis (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1961136385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961136384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55fbce190f5ecb341bfbca8ada50ff73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Zumbi: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-  TempoGerarZumbi: 1.5
---- !u!4 &1961136386
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961136384}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.07, y: 0, z: -29.42}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1965829948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1105362988413674, guid: bf4e53320739441f58d231c2ee884b66, type: 3}
@@ -11403,52 +11493,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4303706599337248, guid: 6ffe1bdcc4b5440768c45450fcade542, type: 3}
   m_PrefabInstance: {fileID: 2107611513}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2110271715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2110271717}
-  - component: {fileID: 2110271716}
-  m_Layer: 0
-  m_Name: GeradorZumbis
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2110271716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110271715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55fbce190f5ecb341bfbca8ada50ff73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Zumbi: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-  TempoGerarZumbi: 1
---- !u!4 &2110271717
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110271715}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.36, y: 0, z: -30.56}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118630676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1105362988413674, guid: bf4e53320739441f58d231c2ee884b66, type: 3}
@@ -11637,6 +11681,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4791428832001672, guid: 0b76d7f1a737248a59eb5b1fef8f7ba4, type: 3}
   m_PrefabInstance: {fileID: 1620419663338285941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1913134144855619789
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525416, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913134144087525422, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
+      propertyPath: m_Name
+      value: GeradorZumbis
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74eab30ab54d6b54f8a1e9a75e34bfd6, type: 3}
 --- !u!1001 &2827876186274861625
 PrefabInstance:
   m_ObjectHideFlags: 0

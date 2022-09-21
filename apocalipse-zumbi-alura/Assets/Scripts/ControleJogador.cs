@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ControleJogador : MonoBehaviour
+public class ControleJogador : MonoBehaviour, IMatavel
 {
     public LayerMask MascaraChao;
     public GameObject TextoGameOver;
@@ -58,11 +58,13 @@ public class ControleJogador : MonoBehaviour
 
         if (StatusJogador.Vida <= 0)
         {
-            Time.timeScale = 0;
-            TextoGameOver.SetActive(true);
+            Morrer();
         }
+    }
 
-
-
+    public void Morrer()
+    {
+        Time.timeScale = 0;
+        TextoGameOver.SetActive(true);
     }
 }

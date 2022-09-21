@@ -34,8 +34,7 @@ public class ControleBala : MonoBehaviour
     {
         if(objetoDeColisao.tag == "Inimigo")
         {
-            Destroy(objetoDeColisao.gameObject);
-            ControleAudio.instancia.PlayOneShot(SomDeMorte);
+            objetoDeColisao.GetComponent<ControleZumbi>().TomarDano(1);
         }
          Destroy(gameObject);
     }    
