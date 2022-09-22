@@ -20,8 +20,11 @@ public class MovimentoPersonagem : MonoBehaviour
 
     public void Rotacionar(Vector3 direcao)
     {
-        direcao.Normalize();
-        Quaternion novaRotacao = Quaternion.LookRotation(direcao);
-        meurigidbody.MoveRotation(novaRotacao);
+        if (direcao != Vector3.zero)
+        {
+            direcao.Normalize();
+            Quaternion novaRotacao = Quaternion.LookRotation(direcao);
+            meurigidbody.MoveRotation(novaRotacao);
+        }
     }
 }
